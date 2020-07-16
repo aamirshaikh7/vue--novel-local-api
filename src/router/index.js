@@ -20,13 +20,13 @@ const routes = [{
 },
 
 {
-  path: 'nonfictionbooks',
+  path: '/nonfictionbooks',
   name: 'nonfictionbooks',
   component: NonFictionBooks
 },
 
 {
-  path: 'book',
+  path: '/book',
   name: 'book',
   component: Book
 }

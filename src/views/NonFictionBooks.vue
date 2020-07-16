@@ -1,6 +1,6 @@
 <template>
   <div>
-    Non-Fiction Books
+    Non fiction books
   </div>
 </template>
 
