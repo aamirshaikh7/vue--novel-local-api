@@ -6,7 +6,9 @@
       <router-link to="/nonfictionbooks">Non Fiction Books</router-link> |
       <router-link to="/book">Book</router-link>
     </div>
-    <router-view/>
+    <b-container>
+      <router-view/>
+    </b-container>
   </div>
 </template>
 
