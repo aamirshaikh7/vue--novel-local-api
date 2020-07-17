@@ -1,7 +1,6 @@
 <template>
   <div>
-    {{ $route.params.type }}
-    {{ $route.params.id }}
+    {{ book().title }}
   </div>
 </template>
 
@@ -23,6 +22,13 @@ export default {
       'fictionbooks',
       'nonfictionbooks'
     ])
+  },
+
+  methods: {
+    book () {
+      const book = this[this.$route.params.type][this.$route.params.id]
+      return book
+    }
   }
 }
 </script>
