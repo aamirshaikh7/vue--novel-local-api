@@ -3,8 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/fictionbooks">Fiction Books</router-link> |
-      <router-link to="/nonfictionbooks">Non Fiction Books</router-link> |
-      <router-link to="/book">Book</router-link>
+      <router-link to="/nonfictionbooks">Non Fiction Books</router-link>
     </div>
     <b-container>
       <router-view/>

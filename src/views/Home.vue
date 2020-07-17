@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h2>View Cool Books</h2>
+    <h2>Discover good books</h2>
   </div>
 </template>
 
