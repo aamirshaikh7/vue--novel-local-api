@@ -3,7 +3,7 @@
     <h2>Discover good books</h2>
     <button @click="toggleBookForm" class="btn btn-primary">Add Book</button>
 
-    <b-form class="transition" @submit="handleSubmit" v-if="showBookForm">
+    <b-form class="transition" @submit.prevent="handleSubmit" v-if="showBookForm">
 
       <b-form-group class="transition" id="input-group-2" label="Title: " label-for="input-2">
         <b-form-input
@@ -40,6 +40,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 
 export default {
   name: 'Home',
@@ -56,12 +57,25 @@ export default {
   },
 
   methods: {
+    ...mapActions(['addBook']),
+
     toggleBookForm () {
       this.showBookForm = !this.showBookForm
-    }
-    // handleSubmit () {
+    },
 
-    // }
+    handleSubmit () {
+      const { type, title, isbn } = this.form
+
+      const payload = {
+        type, 
+        book: {
+          title,
+          isbn 
+        }
+      },
+
+      this.addBook(payload)
+    }
   }
 }
 </script>
