@@ -1,6 +1,11 @@
 <template>
   <div class="home">
     <h2>Discover good books</h2>
+    <br>
+    <h1><strong>Total Books : </strong>{{ booksCount }}</h1>
+    <h1><strong>Fiction Books : </strong>{{ getAllFictionbooks.length }}</h1>
+    <h1><strong>Non-Fiction Books : </strong>{{ getAllNonFictionbooks.length }}</h1>
+    <br>
     <button @click="toggleBookForm" class="btn btn-primary">Add Book</button>
 
     <b-form class="transition" @submit.prevent="handleSubmit" v-if="showBookForm">
@@ -40,7 +45,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'Home',
@@ -54,6 +59,14 @@ export default {
         isbn: 0
       }
     }
+  },
+
+  computed: {
+    ...mapGetters([
+      'booksCount',
+      'getAllFictionbooks',
+      'getAllNonFictionbooks'
+    ])
   },
 
   methods: {

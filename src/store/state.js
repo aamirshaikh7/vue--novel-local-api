@@ -3,5 +3,6 @@ import nonfictionbooks from '../data/nonfictionbooks'
 
 export default {
   fictionbooks,
-  nonfictionbooks
+  nonfictionbooks,
+  books: [...fictionbooks, ...nonfictionbooks]
 }
