@@ -1,6 +1,11 @@
 <template>
   <div>
-    {{ book().title }}
+    <h1><strong>Title : </strong>{{ book.title }}</h1>
+    <p><strong>Pages : </strong>{{ book.pageCount }}</p>
+    <p><strong>Link : </strong><a :href="book.thumbnailUrl">{{ book.thumbnailUrl }}</a></p>
+    <p><strong>Short Description : </strong>{{ book.shortDescription }}</p>
+    <!-- <p v-for="author in authors :key='isbn'"><strong>Author(s) : </strong>{{ book.author }}</p> -->
+    <p><strong>Author(s) : </strong>{{ book.authors[0] }} {{ book.authors[1] }}</p>
   </div>
 </template>
 
@@ -11,7 +16,9 @@ export default {
   name: 'Book',
 
   data () {
-    return {}
+    return {
+      book: {}
+    }
   },
 
   computed: {
@@ -24,11 +31,9 @@ export default {
     ])
   },
 
-  methods: {
-    book () {
-      const book = this[this.$route.params.type][this.$route.params.id]
-      return book
-    }
+  mounted () {
+    const book = this[this.$route.params.type][this.$route.params.id]
+    this.book = book
   }
 }
 </script>
