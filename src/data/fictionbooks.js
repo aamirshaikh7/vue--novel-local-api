@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Unlocking Android',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1933988673',
     pageCount: 416,
     publishedDate: { $date: '2009-04-01T00:00:00.000-0700' },
@@ -13,7 +13,7 @@ export default [
   },
   {
     title: 'Android in Action, Second Edition',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1935182722',
     pageCount: 592,
     publishedDate: { $date: '2011-01-14T00:00:00.000-0800' },
@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'Specification by Example',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1617290084',
     pageCount: 0,
     publishedDate: { $date: '2011-06-03T00:00:00.000-0700' },
@@ -36,7 +36,7 @@ export default [
   },
   {
     title: 'Flex 3 in Action',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1933988746',
     pageCount: 576,
     publishedDate: { $date: '2009-02-02T00:00:00.000-0800' },
@@ -47,7 +47,7 @@ export default [
   },
   {
     title: 'Flex 4 in Action',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1935182420',
     pageCount: 600,
     publishedDate: { $date: '2010-11-15T00:00:00.000-0800' },
@@ -63,7 +63,7 @@ export default [
   },
   {
     title: 'Collective Intelligence in Action',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1933988312',
     pageCount: 425,
     publishedDate: { $date: '2008-10-01T00:00:00.000-0700' },
@@ -74,7 +74,7 @@ export default [
   },
   {
     title: 'Zend Framework in Action',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1933988320',
     pageCount: 432,
     publishedDate: { $date: '2008-12-01T00:00:00.000-0800' },
@@ -86,7 +86,7 @@ export default [
   },
   {
     title: 'Flex on Java',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1933988797',
     pageCount: 265,
     publishedDate: { $date: '2010-10-15T00:00:00.000-0700' },
@@ -98,7 +98,7 @@ export default [
   },
   {
     title: 'Griffon in Action',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '1935182234',
     pageCount: 375,
     publishedDate: { $date: '2012-06-04T00:00:00.000-0700' },
@@ -110,7 +110,7 @@ export default [
   },
   {
     title: 'OSGi in Depth',
-    type: 'Non-technical',
+    type: 'Fiction',
     isbn: '193518217X',
     pageCount: 325,
     publishedDate: { $date: '2011-12-12T00:00:00.000-0800' },

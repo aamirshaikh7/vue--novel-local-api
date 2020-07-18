@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Flexible Rails',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1933988509',
     pageCount: 592,
     publishedDate: { $date: '2008-01-01T00:00:00.000-0800' },
@@ -13,7 +13,7 @@ export default [
   },
   {
     title: 'Hello! Flex 4',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1933988762',
     pageCount: 258,
     publishedDate: { $date: '2009-11-01T00:00:00.000-0700' },
@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'Coffeehouse',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1884777384',
     pageCount: 316,
     publishedDate: { $date: '1997-07-01T00:00:00.000-0700' },
@@ -37,7 +37,7 @@ export default [
   },
   {
     title: 'Team Foundation Server 2008 in Action',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1933988592',
     pageCount: 344,
     publishedDate: { $date: '2008-12-01T00:00:00.000-0800' },
@@ -48,7 +48,7 @@ export default [
   },
   {
     title: 'Brownfield Application Development in .NET',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1933988711',
     pageCount: 550,
     publishedDate: { $date: '2010-04-16T00:00:00.000-0700' },
@@ -60,7 +60,7 @@ export default [
   },
   {
     title: 'MongoDB in Action',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1935182870',
     pageCount: 0,
     publishedDate: { $date: '2011-12-12T00:00:00.000-0800' },
@@ -72,7 +72,7 @@ export default [
   },
   {
     title: 'Distributed Application Development with PowerBuilder 6.0',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1884777686',
     pageCount: 504,
     publishedDate: { $date: '1998-06-01T00:00:00.000-0700' },
@@ -82,7 +82,7 @@ export default [
   },
   {
     title: 'Jaguar Development with PowerBuilder 7',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1884777864',
     pageCount: 550,
     publishedDate: { $date: '1999-08-01T00:00:00.000-0700' },
@@ -94,7 +94,7 @@ export default [
   },
   {
     title: 'Taming Jaguar',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1884777686',
     pageCount: 362,
     publishedDate: { $date: '2000-07-01T00:00:00.000-0700' },
@@ -105,7 +105,7 @@ export default [
   },
   {
     title: '3D User Interfaces with Java 3D',
-    type: 'Technical',
+    type: 'Non-Fiction',
     isbn: '1884777902',
     pageCount: 520,
     publishedDate: { $date: '2000-08-01T00:00:00.000-0700' },

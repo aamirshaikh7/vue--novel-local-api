@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="justify">
     <h1><strong>Title : </strong>{{ book.title }}</h1>
     <p><strong>Pages : </strong>{{ book.pageCount }}</p>
     <p><strong>Link : </strong><a :href="book.thumbnailUrl">{{ book.thumbnailUrl }}</a></p>
     <p><strong>Short Description : </strong>{{ book.shortDescription }}</p>
-    <!-- <p v-for="author in authors :key='isbn'"><strong>Author(s) : </strong>{{ book.author }}</p> -->
+    <!-- <p v-for="(author, index) in authors" :key="index">Author(s) : {{ book.author }}</p> -->
     <p><strong>Author(s) : </strong>{{ book.authors[0] }} {{ book.authors[1] }}</p>
   </div>
 </template>
@@ -38,4 +38,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+</style>
