@@ -65,15 +65,13 @@ export default {
 
     handleSubmit () {
       const { type, title, isbn } = this.form
-
       const payload = {
         type, 
         book: {
           title,
           isbn 
         }
-      },
-
+      }
       this.addBook(payload)
     }
   }
