@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-view-container">
     <h2>Discover good books</h2>
     <br>
     <h1><strong>Total Books : </strong>{{ booksCount }}</h1>
